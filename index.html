@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Publish Sharding Simulation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+</head>
+<body onload="simulate()">
+        <div class="heading-2">
+            Message Rates Simulation for Live Events
+        </div>
+        <div class="heading-5 subheading">This simulation shows readability of different messaging rates and the resulting readability. Around 1 message/second is readable.
+        </div>
+        <div class="mps">
+                <div class="heading-5">Messages Per Second</div> 
+                <img id="rate-down" class="speed-arrow" src='./image/down.png'></img>
+                <span id="msgrate" class="heading-2">1.0</span>
+                <img id="rate-up" class="speed-arrow" src='./image/up.png'></img>
+        </div>
+        <div id="message-container" class="message-container-outer">
+            <div id="message-list" class="message-container-inner">
+            
+            </div>
+        </div>
+<script src="./script.js"></script>
+<link rel="stylesheet" href="./style.css" />
+</body>
+</html>
